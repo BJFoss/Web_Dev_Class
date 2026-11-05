@@ -8,13 +8,13 @@ body { background-color: #FCEBB6;
 	 text-indent: 1em;
 	 text-shadow: 3px 3px 5px #000000; 
     text-align: center;}
-h2 { background-color: #B0E6E6; 
+h2 {
      color: #8C3826; 
 	 font-family: Georgia, "Times New Roman", serif;
 	 text-align: center;  }
 nav { font-weight: bold;
       font-size: 1.25em;
-	  word-spacing: 1em; 
+	  word-spacing: 1em;
     text-align: center;}
 nav a { text-decoration: none; }
 p { font-size: .90em;
@@ -33,4 +33,5 @@ footer { color: #333333;
             font-size: 1.25em; }
 #wrapper { margin-left: auto;
            margin-right: auto;
+           background-color: #fefaeb;
            width: 80%; }
