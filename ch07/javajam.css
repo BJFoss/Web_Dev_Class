@@ -8,12 +8,12 @@ body { background-color: #d2b48c;
     }
 
 
- h1 { background-color: #D2B48C; 
+ h1 { 
     
 	 font-size: 3em;
 	 font-family: Georgia, "Times New Roman", serif;
 	 text-indent: 1em;
-    font-size: 2em;
+     font-size: 2em;
      text-align: center;
     
 }
@@ -34,7 +34,7 @@ nav li{
     padding-left: 1em;
     padding-right: 1em;
     width: 100%;
-    border-bottom: #221811 1px;
+    border-bottom: 1px solid #fef6c2;
 }
 nav a:link{
     color: #fef6c2;
