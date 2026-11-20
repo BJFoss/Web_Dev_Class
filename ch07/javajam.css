@@ -186,3 +186,46 @@ img{
 #desktop{
     display: none;
 }
+
+@media (min-width: 600px) {
+    header{
+        text-align: center;
+        padding-left: 0;
+    }
+    
+    h1{
+        font-size: 3em;
+    }
+    nav ul{
+        justify-content: space-around;
+        
+    }
+    nav li{
+        border-bottom: none;
+    }
+    #homehero{
+        height: 50vh;
+        background-image: url(heromugs.jpg);
+    }
+    #heroguitar{
+        background-image: url(heroguitar.jpg);
+    }
+    #flow{
+        display: flex;
+        flex-direction: row;
+    }
+    #mobile{
+        display: none;
+    }
+    #desktop{
+        display: inline;
+    }
+    .details{
+        display: flex;
+        flex-direction: row;
+    }
+    h4{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
