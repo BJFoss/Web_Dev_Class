@@ -7,11 +7,11 @@ body { background-color: #FCEBB6;
     background-image: url('fadedroad50.jpg'); 
     background-repeat: no-repeat; }
  h1 { background-color: #D2B48C; 
-     color: #8C3826; 
+    
 	 font-size: 3em;
 	 font-family: Georgia, "Times New Roman", serif;
 	 text-indent: 1em;
-	 text-shadow: 3px 3px 5px #000000; 
+	
     text-align: center;
     
 }
@@ -49,6 +49,7 @@ nav a { text-decoration: none;
 nav ul{
     padding-left: 0;
     list-style: none;
+   
 }
 
 p { font-size: .90em;
@@ -70,6 +71,7 @@ footer { color: #333333;
             font-size: 1.25em; }
 #wrapper { margin-left: auto;
            margin-right: auto;
+           
            background-color: #231814;
            width: 80%;
            min-width: 900px;
@@ -84,6 +86,7 @@ header{
         padding-left: 240px;
         padding-top: 5px;
         padding-bottom: 5px;
+        background-color: #D2B48C;
     }
 
 header a:link {
@@ -163,7 +166,7 @@ img{
 .floatleft{
     float: left;
     padding-left: 2em;
-    padding-right: 2em;
+    padding-bottom: 2em;
 }
 
 .onethird{
