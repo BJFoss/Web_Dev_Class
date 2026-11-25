@@ -9,12 +9,14 @@ body { background-color: #d2b48c;
 
 
  h1 { 
-    
-	 font-size: 3em;
-	 font-family: Georgia, "Times New Roman", serif;
-	 text-indent: 1em;
-     font-size: 2em;
-     text-align: center;
+    color: #8C3826;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2em;
+    text-indent: 1em;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+    min-height: 60px;
     
 }
 h2 {
@@ -69,11 +71,12 @@ footer { color: #333333;
          font-size: .75em;
          font-style: italic; 
         background-color: #D2B48C;
-        font-size: small;
+       
         text-align: center;
         font-style: italic;
         padding: 1em;
-        border-top: 2px;
+        border-top: 2px solid #8c3826;
+
     }
 .company { font-weight: bold;
            font-family: Georgia, "Times New Roman", serif;
@@ -84,6 +87,7 @@ footer { color: #333333;
            
         }
 header{
+        color: #8b3826;
         background-image: url("cup.jpg");
         background-repeat: no-repeat;
         padding-left: 105px;
@@ -208,10 +212,13 @@ img{
     }
     #homehero{
         height: 50vh;
-        background-image: url(heromugs.jpg);
+        background-image: url(hero.jpg);
     }
     #heroguitar{
         background-image: url(heroguitar.jpg);
+    }
+    #heromugs{
+        background-image: url(heromugs.jpg);
     }
     #flow{
         display: flex;
@@ -234,5 +241,33 @@ img{
 }
 
 @media(min-width:1024px) {
+    header{
+        grid-area: header;
+        background-image: url(coffeelogo.jpg);
+
+    }
+    nav{
+        grid-area: nav;
     
+    }
+    main{
+        grid-area: main;
+    }
+    footer{
+        grid-area: footer;
+    }
+
+    #wrapper{
+        display: grid;
+        grid-template:
+        "header header"
+        "nav main"
+        "footer footer"
+        / 200px;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+
 }
